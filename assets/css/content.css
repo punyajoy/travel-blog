@@ -6,15 +6,24 @@
 }
 
 .main {
-	flex-basis: 50%;
+	width: 60%;
 	background-color: blue;
 	flex-wrap: wrap;
 
 }
 
 .aside {
-	flex-basis: 50%;
+	width: 40%;
 	background-color: green;
 	flex-wrap: wrap;
 }
 
+
+@media screen and (max-width: 780px) {
+    .main {
+    	width: 100%;
+    }
+    .aside {
+    	width: 100%;
+    }
+}

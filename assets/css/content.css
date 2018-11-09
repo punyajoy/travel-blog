@@ -7,9 +7,7 @@
 
 .main {
 	width: 60%;
-	background-color: blue;
 	flex-wrap: wrap;
-
 }
 
 .aside {

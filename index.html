@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/css/container.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/hamburger.css">
     <link rel="stylesheet" href="assets/css/content.css">
-
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <title>Travel Blog</title>
   </head>
@@ -17,7 +18,7 @@
   	<div class="flex-container">
   		<div class="header">
   			<div class="logo">
-  				<h1><img src="assets/image/logo.jpg" style="height: 200px;"></h1>
+  				<h1><!-- <img src="assets/image/logo.jpg" style="height: 150px;"> --></h1>
   			</div>
 	  			<div class="info">
 	   				<div class="search">
@@ -28,21 +29,27 @@
 	            	</div>
 	            	<div class="social">
               			<ul class="socialheader">
-						  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						  <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						  <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-						</ul>
+        						  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        						  <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+        						  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        						  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        						  <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+						        </ul>
 	            	</div>
-	            	<div class="nav">
-  						<ul id="menu">
-							<li class="nav-item"><a href="#" >Home</a></li>
-							<li class="nav-item"><a href="#" >Blog</a></li>
-							<li class="nav-item"><a href="#">About Us</a></li>
-							<li class="nav-item"><a href="#">Contact</a></li>
-						</ul>
-					</div>
+                
+                 <nav role="navigation">
+                   <div id="menuToggle">
+                      <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                          <ul id="menu">
+                            <a href="#"><li>Home</li></a>
+                            <a href="#"><li>About</li></a>
+                            <a href="#"><li>Contact</li></a>
+                          </ul>
+                    </div>
+                  </nav> 
 	  			</div>			
   			</div>
   		<div class="flex-content">
@@ -53,6 +60,7 @@
                 			<h3 class="date">Posted 09 November 2018</h3>
                   				<p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                      				<a href="#" class="post-link">Read More...</a>
+                            <h4><i class="far fa-comments"></i> 23 <i class="far fa-heart"></i> 22</h4>
     			</div>
 
     			<div class="blog-post">
@@ -61,6 +69,8 @@
                 			<h3 class="date">Posted 09 November 2018</h3>
                   				<p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                      				<a href="#" class="post-link">Read More...</a>
+                            <h4><i class="far fa-comments"></i> 23 <i class="far fa-heart"></i> 22</h4>
+
     			</div>
 
     			<div class="blog-post">
@@ -69,6 +79,7 @@
                 			<h3 class="date">Posted 09 November 2018</h3>
                   				<p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                      				<a href="#" class="post-link">Read More...</a>
+                            <h4><i class="far fa-comments"></i> 23 <i class="far fa-heart"></i> 22</h4>
     			</div>
 
     			<div class="blog-post">
@@ -77,7 +88,26 @@
                 			<h3 class="date">Posted 09 November 2018</h3>
                   				<p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                      				<a href="#" class="post-link">Read More...</a>
+                            <h4><i class="far fa-comments"></i> 23 <i class="far fa-heart"></i> 22</h4>
     			</div>
+
+          <div class="blog-post">
+                <h1 class="blog-title"><img src=""></h1>
+                    <h2>Historical places</h2>
+                      <h3 class="date">Posted 09 November 2018</h3>
+                          <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="post-link">Read More...</a>
+                            <h4><i class="far fa-comments"></i> 23 <i class="far fa-heart"></i> 22</h4>
+          </div>
+
+          <div class="blog-post">
+                <h1 class="blog-title"><img src=""></h1>
+                    <h2>Rent a car</h2>
+                      <h3 class="date">Posted 09 November 2018</h3>
+                          <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="post-link">Read More...</a>
+                            <h4><i class="far fa-comments"></i> 23 <i class="far fa-heart"></i> 22</h4>
+          </div>
   			</div>
   			<div class="aside">
   				<div class="side-post">
@@ -138,6 +168,6 @@
               	</div>
   			</div>
   		</div>
-  		<div class="footer">FOOTER</div>
+  		<div class="footer"></div>
   	</div>
   </body>

@@ -45,5 +45,9 @@
     }
     .footer-nav ul {
     	padding: 0;
+
+    }
+    .footer-nav ul li {
+    	display: block;
     }
 }

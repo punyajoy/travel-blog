@@ -24,6 +24,11 @@
 
 }
 
+.post-link {
+  text-decoration: none;
+  color: #808080;
+}
+
 .blog-post:hover {
   -webkit-transform: scale(0.5);
   transform: scale(1.1);
@@ -199,18 +204,20 @@ a {
 .comments .comment {
   border-radius: 10px;
   font-size: 11px;
-  padding: 10px 25px;
+  padding: 10px 25px; 
 }
 
 .comments .meta { 
 	color: #808080; 
 }
 
+
 .comments {
   list-style-type: none;
   padding: 5px 0 0 46px;
   position: relative;
   margin: 0 0 0 12px;
+
 }
 .comments:before,
 .comments .comment,

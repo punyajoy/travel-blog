@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/css/container.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/hamburger.css">
     <link rel="stylesheet" href="assets/css/content.css">
-
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
 
@@ -17,7 +17,7 @@
   	<div class="flex-container">
   		<div class="header">
   			<div class="logo">
-  				<h1><img src="assets/image/logo.jpg" style="height: 200px;"></h1>
+  				<h1><!-- <img src="assets/image/logo.jpg" style="height: 150px;"> --></h1>
   			</div>
 	  			<div class="info">
 	   				<div class="search">
@@ -28,56 +28,85 @@
 	            	</div>
 	            	<div class="social">
               			<ul class="socialheader">
-						  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						  <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						  <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-						</ul>
+        						  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        						  <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+        						  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        						  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        						  <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+						        </ul>
 	            	</div>
-	            	<div class="nav">
-  						<ul id="menu">
-							<li class="nav-item"><a href="#" >Home</a></li>
-							<li class="nav-item"><a href="#" >Blog</a></li>
-							<li class="nav-item"><a href="#">About Us</a></li>
-							<li class="nav-item"><a href="#">Contact</a></li>
-						</ul>
-					</div>
+                
+                 <nav role="navigation">
+                   <div id="menuToggle">
+                      <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                          <ul id="menu">
+                            <a href="#"><li>Home</li></a>
+                            <a href="#"><li>About</li></a>
+                            <a href="#"><li>Contact</li></a>
+                          </ul>
+                    </div>
+                  </nav> 
 	  			</div>			
   			</div>
   		<div class="flex-content">
   			<div class="main">
   				<div class="blog-post">
-            		<h1 class="blog-title"><img src=""></h1>
-              			<h2>About travel</h2>
+            		<h1 class="blog-title"><img src="assets/image/germany.jpg" style="width: 250px; height: 150px;"></h1>
+              			<h2>Germany</h2>
                 			<h3 class="date">Posted 09 November 2018</h3>
                   				<p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                      				<a href="#" class="post-link">Read More...</a>
+                            <h4><i class="fa fa-comments"></i> 23 <i class="fa fa-heart"></i> 22</h4>
     			</div>
 
     			<div class="blog-post">
-            		<h1 class="blog-title"><img src=""></h1>
-              			<h2>Booking</h2>
+            		<h1 class="blog-title"><img src="assets/image/poland.jpg" style="width: 250px; height: 150px;"></h1>
+              			<h2>Poland</h2>
                 			<h3 class="date">Posted 09 November 2018</h3>
                   				<p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                      				<a href="#" class="post-link">Read More...</a>
+                            <h4><i class="fa fa-comments"></i> 21 <i class="fa fa-heart"></i> 44</h4>
+
     			</div>
 
     			<div class="blog-post">
-            		<h1 class="blog-title"><img src=""></h1>
-              			<h2>AirBnB</h2>
+            		<h1 class="blog-title"><img src="assets/image/austria.jpg" style="width: 250px; height: 150px;"></h1>
+              			<h2>Austria</h2>
                 			<h3 class="date">Posted 09 November 2018</h3>
                   				<p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                      				<a href="#" class="post-link">Read More...</a>
+                            <h4><i class="fa fa-comments"></i> 33 <i class="fa fa-heart"></i> 27</h4>
     			</div>
 
     			<div class="blog-post">
-            		<h1 class="blog-title"><img src=""></h1>
-              			<h2>Restaurant</h2>
+            		<h1 class="blog-title"><img src="assets/image/slovakia.jpg" style="width: 250px; height: 150px;"></h1>
+              			<h2>Slovakia</h2>
                 			<h3 class="date">Posted 09 November 2018</h3>
                   				<p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                      				<a href="#" class="post-link">Read More...</a>
+                            <h4><i class="fa fa-comments"></i> 12 <i class="fa fa-heart"></i> 22</h4>
     			</div>
+
+          <div class="blog-post">
+                <h1 class="blog-title"><img src="assets/image/egypt.jpg" style="width: 250px; height: 150px;"></h1>
+                    <h2>Egypt</h2>
+                      <h3 class="date">Posted 09 November 2018</h3>
+                          <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="post-link">Read More...</a>
+                            <h4><i class="fa fa-comments"></i> 233 <i class="fa fa-heart"></i> 522</h4>
+          </div>
+
+          <div class="blog-post">
+                <h1 class="blog-title"><img src="assets/image/czech.jpg" style="width: 250px; height: 150px;"></h1>
+                    <h2>Czech Republic</h2>
+                      <h3 class="date">Posted 09 November 2018</h3>
+                          <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="post-link">Read More...</a>
+                            <h4><i class="fa fa-comments"></i> 232 <i class="fa fa-heart"></i> 122</h4>
+          </div>
   			</div>
   			<div class="aside">
   				<div class="side-post">
@@ -122,22 +151,22 @@
 
               	<div class="side-post">
               		<ul class="comments">
-  						<li class="comment">
-    						<a href="#" title="View this user profile" class="photo"><img src="https://placehold.it/32x32" alt="Andrew"></a>
-    							<div class="meta">Andrew | 2018.07.21 14:58</div>
-    								<div class="body">Nice blog! Keep going!</div>
-  						</li>
+  						      <li class="comment">
+    						      <a href="#" title="View this user profile" class="photo"><img src="https://placehold.it/32x32" alt="Andrew"></a>
+    							      <div class="meta">Andrew | 2018.07.21 14:58</div>
+    								      <div class="body">Nice blog! Keep going!</div>
+  						      </li>
   								     
-  						<li class="comment level-2">
-    						<a href="#" title="View this user profile" class="photo"><img src="https://placehold.it/32x32" alt="Stewart"></a>
-    							<div class="meta">Stewart | 2018.07.21 15:21 </div>
-    								<div class="body">What about IPA?</div>
-  						</li>
-					</ul>
-              		</div>
+  						      <li class="comment level-2">
+    						      <a href="#" title="View this user profile" class="photo"><img src="https://placehold.it/32x32" alt="Stewart"></a>
+    							      <div class="meta">Stewart | 2018.07.21 15:21 </div>
+    								      <div class="body">What about IPA?Can you tell me the receipt...</div>
+  						      </li>
+					        </ul>
               	</div>
-  			</div>
-  		</div>
-  		<div class="footer">FOOTER</div>
+              </div>
+  			   </div>
+  		  </div>
+  		<div class="footer"></div>
   	</div>
   </body>

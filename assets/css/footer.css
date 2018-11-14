@@ -26,6 +26,10 @@
 	margin: 20px;
 }
 
+.footer-nav ul {
+	padding: 0;
+}
+
 .copyright {
 	flex-grow: 1;
 	margin-top: 12px;
@@ -38,5 +42,8 @@
     }
     .footer-nav {
     	text-align: center;
+    }
+    .footer-nav ul {
+    	padding: 0;
     }
 }

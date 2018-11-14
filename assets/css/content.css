@@ -4,4 +4,5 @@
 	flex-direction: row;
 	flex-wrap: wrap;  
   background-color: yellow;
+  flex-grow: 1;
 }

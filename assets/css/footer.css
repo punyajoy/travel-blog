@@ -1,12 +1,4 @@
 .footer {
-	
-	height: 100px;
+	max-width: 100%;
 	background-color: #E1E2E1;
-}
-
-
-@media screen and (max-width: 780px) {
-    .footer {
-    	width: 100%;
-    }
 }

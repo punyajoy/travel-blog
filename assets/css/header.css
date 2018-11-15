@@ -12,6 +12,10 @@
 	flex-grow: 1;
 }
 
+#menuToggle input{
+	display: none;
+}
+
 .info {
 	display: flex;
 	flex-wrap: wrap;
@@ -48,9 +52,7 @@
   font-size: 20px;
 }
 
-.social {
- 
-}
+
 
 ul.socialheader {
   float: right;

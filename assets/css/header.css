@@ -1,5 +1,6 @@
 .header {
-	max-width: 100%;
+	min-width: 375px;
+	max-width: 1200px;
 	margin-bottom: 20px;
 	display: flex;
 	flex-wrap: wrap;
@@ -103,10 +104,12 @@ ul.socialheader li:hover a {
     }
     .search {
     	order: 1;
+    	width: 95%;
     }
     .logo{
     	order: 2;
     	text-align: center;
+    	width: 200px;
     }
     .menu {
     	display: none;

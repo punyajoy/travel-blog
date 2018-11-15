@@ -1,5 +1,4 @@
 body {
-	height: 100%;
 	transition: all .3s;
 	padding: 0;
     margin: 0;
@@ -8,9 +7,12 @@ body {
 .flex-container {
 	margin: 0 auto;
 	max-width: 1200px;
-	min-height: 100vh;
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: column;
 }
     
+@media screen and (min-width:480px) and (max-width:800px) {
+	.flex-container {
+		width: 100%;
+	}
+}

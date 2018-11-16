@@ -20,7 +20,7 @@
 .blog-post {
 	width: 300px;
 	padding: 35px 30px;
-	box-shadow: 5px 5px 15px -1px #DCDCDC;
+	box-shadow: 5px 5px 15px -1px #F5F5F5;
 }
 
 .blog-post:hover {
@@ -39,7 +39,7 @@
 .side-post {
 	width: 300px;
 	padding: 35px 30px;
-	box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.3);
+	box-shadow: 5px 5px 15px -1px #F5F5F5;
 }
 
 .aside-socialheader li {
@@ -262,4 +262,14 @@ a {
   border: 1px solid #fff;
   border-radius: 32px;
   overflow: hidden;
+}
+
+
+@media screen and (max-width: 780px) {
+	.aside {
+		margin-top: 10px;
+	}
+	.aside-post {
+		margin-top: 10px;
+	}
 }

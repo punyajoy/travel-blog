@@ -217,6 +217,7 @@ text-align: right;
 #menu li a {	
   padding: 10px 0;
   font-size: 25px;
+  padding-right: 20px;
 }
 
 #menuToggle input:checked ~ ul {

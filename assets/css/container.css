@@ -15,4 +15,7 @@ body {
 	.flex-container {
 		width: 100%;
 	}
+	.main {
+		justify-content: space-around;
+	}
 }

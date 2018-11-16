@@ -107,8 +107,9 @@ ul.socialheader li:hover a {
     	width: 95%;
     }
     .logo{
-    	order: 3;
+    	order: 2;
     	text-align: center;
+      width: 150px;
     }
     .menu {
     	display: none;

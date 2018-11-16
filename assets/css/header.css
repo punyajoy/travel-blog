@@ -106,6 +106,9 @@ ul.socialheader li:hover a {
     	order: 1;
     	width: 95%;
     }
+    .searchButton {
+      text-align: center;
+    }
     .logo{
     	order: 2;
     	text-align: center;

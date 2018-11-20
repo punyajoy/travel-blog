@@ -109,8 +109,10 @@ ul.socialheader li:hover a {
       display: none;
     }
     .search {
+      text-align: left;
     	order: 1;
-    	width: 95%;
+    	width: 180%;
+      padding-left: 100px;
     }
     .searchButton {
       text-align: center;

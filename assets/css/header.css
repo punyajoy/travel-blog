@@ -51,8 +51,14 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
+  transition: all 250ms;
 }
 
+.searchButton:hover {
+  cursor: pointer;
+  background-color: #5ba9d2;
+  color: #b5b8cc;
+}
 
 
 ul.socialheader {
@@ -103,8 +109,10 @@ ul.socialheader li:hover a {
       display: none;
     }
     .search {
+      text-align: left;
     	order: 1;
-    	width: 95%;
+    	width: 180%;
+      padding-left: 100px;
     }
     .searchButton {
       text-align: center;
@@ -211,7 +219,15 @@ a:hover {
 }
 
 #menu li {
-text-align: right;
+text-align: center;
+}
+
+#menu li:first-child {
+  border-bottom: 1px solid black;
+}
+
+#menu li:last-child {
+  border-top: 1px solid black;
 }
 
 #menu li a {	

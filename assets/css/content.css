@@ -83,7 +83,6 @@
   border-radius: 5px;
   padding: 1em 0;
   background-color: #b5b8cc;
-  
   text-transform: uppercase;
   transition: all 250ms;
 }
@@ -120,12 +119,12 @@ ul#socialbottom-side li a i {
 
 .button{
 	display: block;
-    background: #A9A9A9;
+  background: #A9A9A9;
 	padding: 10px 15px;
 	margin-top: 10px;
 	color: #fff;
 	font-size: 25px;
-    text-align: center;
+  text-align: center;
 	border-radius: 2px;
 }
 
@@ -152,6 +151,13 @@ ul#socialbottom-side li a i {
   cursor: pointer;
   font-size: 20px;
 }
+
+.side-searchButton:hover {
+  cursor: pointer;
+  background-color: #5ba9d2;
+  color: #b5b8cc;
+}
+
 
 .tags {
   list-style: none;
@@ -216,7 +222,7 @@ a {
 
 .comments .comment {
   border-radius: 10px;
-  font-size: 11px;
+  font-size: 14px;
   padding: 10px 25px; 
 }
 

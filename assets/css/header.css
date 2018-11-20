@@ -51,8 +51,14 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
+  transition: all 250ms;
 }
 
+.searchButton:hover {
+  cursor: pointer;
+  background-color: #5ba9d2;
+  color: #b5b8cc;
+}
 
 
 ul.socialheader {

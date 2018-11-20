@@ -211,7 +211,15 @@ a:hover {
 }
 
 #menu li {
-text-align: right;
+text-align: center;
+}
+
+#menu li:first-child {
+  border-bottom: 1px solid black;
+}
+
+#menu li:last-child {
+  border-top: 1px solid black;
 }
 
 #menu li a {	

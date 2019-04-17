@@ -9,6 +9,8 @@ body {
 	max-width: 1200px;
 	display: flex;
 	flex-direction: column;
+	
+
 }
     
 @media screen and (min-width:480px) and (max-width:800px) {

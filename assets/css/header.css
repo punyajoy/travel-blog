@@ -7,6 +7,9 @@
 	flex-direction: row;
 	box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.2);
 	background-color: #F5F5F5;
+  background-image: url("../image/travel-header.jpg");
+  background-repeat: no-repeat;
+
 }
 
 .logo {
